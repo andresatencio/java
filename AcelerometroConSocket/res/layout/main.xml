@@ -1,0 +1,51 @@
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_x="52dp"
+            android:layout_y="24dp"
+            android:text="Escriba direccion ip del host"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="54dp"
+            android:layout_y="95dp"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_x="58dp"
+            android:layout_y="199dp"
+            android:text="Escriba puerto"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="57dp"
+            android:layout_y="258dp"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_x="60dp"
+            android:layout_y="366dp"
+            android:text="Conectar" />
+
+    </AbsoluteLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtViewIP"
+        android:layout_width="215dp"
+        android:layout_height="30dp"
+        android:layout_x="42dp"
+        android:layout_y="9dp"
+        android:text="Escriba direccion ip del host"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/txtIP"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="32dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="86dp"
+        android:text="Escriba el puerto"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/txtPUERTO"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="112dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="178dp"
+        android:text="Texto a enviar:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/txtMENSAJE"
+        android:layout_width="237dp"
+        android:layout_height="83dp"
+        android:layout_x="39dp"
+        android:layout_y="210dp"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnENVIAR"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="316dp"
+        android:text="Enviar" />
+
+</AbsoluteLayout>
